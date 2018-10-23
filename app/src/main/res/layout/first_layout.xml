@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cdivtc.activitytest.FirstActivity">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示INTENT"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:background="@android:color/holo_blue_light"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开Browser"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:background="@android:color/holo_green_light"
+        android:onClick="openBrowser"/>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开Map"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:background="@android:color/holo_red_light"
+        android:onClick="openMap"/>
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打电话"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="call"/>
+
+</LinearLayout>
